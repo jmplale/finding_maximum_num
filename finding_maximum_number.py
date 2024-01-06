@@ -36,7 +36,7 @@ def main():  # putting def main to put some design to the code
     else:
         # also an if statement for num_two 
         if num_two > num_one and num_two > num_three:
-            print(("\nThe largest number among the three numbers you've entered is " + str(num_two)))
+            for_print(colored_letter(another_font.renderText("\nThe largest number among the three numbers you've entered is " + str(num_two)), colorama.Fore.GREEN), colorama.Fore.GREEN)
 
         # the else statement for num_three
         else:
