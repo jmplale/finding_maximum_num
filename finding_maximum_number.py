@@ -10,6 +10,6 @@ if num_one > num_two and num_one > num_three:
 
 # also an if statement for num_two 
 if num_two > num_one and num_two > num_three:
-    print(print("\nThe largest number among the three numbers you've entered is " + str(num_two)))
-    
+    print(("\nThe largest number among the three numbers you've entered is " + str(num_two)))
+
 # the else statement for num_three
