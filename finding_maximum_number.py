@@ -13,3 +13,5 @@ if num_two > num_one and num_two > num_three:
     print(("\nThe largest number among the three numbers you've entered is " + str(num_two)))
 
 # the else statement for num_three
+else:
+    print(("\nThe largest number among the three numbers you've entered is " + str(num_three)))
