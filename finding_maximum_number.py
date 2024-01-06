@@ -1,3 +1,10 @@
+# let us put design in our code
+# we will import some tools that will help us to design the result of our code
+from pyfiglet import Figlet
+import colorama
+
+
+
 # we need to make inputs for the user.
 
 num_one = int(input("What is your first number?: "))
