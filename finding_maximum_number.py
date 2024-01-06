@@ -40,7 +40,7 @@ def main():  # putting def main to put some design to the code
 
         # the else statement for num_three
         else:
-            print(("\nThe largest number among the three numbers you've entered is " + str(num_three)))
+            for_print(colored_letter(another_font.renderText("\nThe largest number among the three numbers you've entered is " + str(num_three)), colorama.Fore.YELLOW), colorama.Fore.YELLOW)
 
 if __name__ == "__main__":
     main()
