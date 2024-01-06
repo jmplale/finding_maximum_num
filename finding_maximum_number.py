@@ -19,6 +19,7 @@ def main():  # putting def main to put some design to the code
 
     # let's add some font design
     font = Figlet(font = 'small')
+    another_font = Figlet(font = 'mini')
 
     # making introduction on the outcome
     introduction = colored_letter(font.renderText("Welcome to the Maximum Number Finder Machine!"), colorama.Fore.MAGENTA)
@@ -31,7 +32,7 @@ def main():  # putting def main to put some design to the code
     # I just fixed some few errors
     # we need to make if statement for num_one
     if num_one > num_two and num_one > num_three:
-        print("\nThe largest number among the three numbers you've entered is " + str(num_one))
+        for_print(colored_letter(another_font.renderText("\nThe largest number among the three numbers you've entered is " + str(num_one)), colorama.Fore.BLUE), colorama.Fore.BLUE)
     else:
         # also an if statement for num_two 
         if num_two > num_one and num_two > num_three:
