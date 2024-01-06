@@ -3,13 +3,22 @@
 from pyfiglet import Figlet
 import colorama
 
+# we will just set up some definition that we can use in designing the code
 
+colorama.init()
+
+def for_print(text, color):
+    print(color + text + colorama.Style.RESET_ALL)
+def colored_letter(text, color):
+    return color + text + colorama.Style.RESET_ALL    
+    
 
 # we need to make inputs for the user.
 
 num_one = int(input("What is your first number?: "))
 num_two = int(input("What is your second number?: "))
 num_three = int(input("What is your third number?: "))
+   
 
 # we need to make if statement for num_one
 if num_one > num_two and num_one > num_three:
